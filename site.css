@@ -1,5 +1,5 @@
 body {
-  font-family: Raleway, Arial;
+	font-family: Raleway, Arial;
 }
 
 a {
@@ -35,6 +35,11 @@ header {
 
 /* logo */
 
+.logo {
+	width: 97px;
+	height: 45px;
+}
+
 /* Navigation */
 
 .navigation {
@@ -51,6 +56,7 @@ header {
 .navigation {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .nav {
@@ -155,6 +161,11 @@ button p {
   white-space: nowrap;
 }
 
+.filtre {
+	position: absolute;
+	top: 9px;
+}
+
 tbody {
   display: flex;
 }
@@ -188,7 +199,7 @@ td a {
   padding-right: 20px;
 }
 
-#iconnes {
+.iconnes {
   color: #0065fc;
   width: 100%;
   height: auto;
@@ -373,16 +384,16 @@ td a {
   font-size: 1.5em;
 }
 
-#stars-1,
-#stars-2 {
+.stars-1,
+.stars-2 {
   color: #0065fc;
 }
 
-#stars-1 {
+.stars-1 {
   padding-left: 8px;
 }
 
-#stars-2 {
+.stars-2 {
   color: #0065fc;
   height: auto;
   display: flex;
@@ -392,7 +403,7 @@ td a {
   align-items: flex-end;
 }
 
-#stars {
+.stars {
   color: #f2f2f2;
 }
 
@@ -507,7 +518,7 @@ td a {
 
 /* Menu pied de page */
 
-ul {
+.ul {
   list-style-type: none;
   font-size: 0.7em;
 }

@@ -80,6 +80,10 @@
     padding-top: 20px;
   }
 
+  .filtre {
+	  padding-bottom: 10px;
+  }
+
   tbody {
     display: flex;
     flex-direction: column;
