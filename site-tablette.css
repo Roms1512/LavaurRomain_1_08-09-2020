@@ -40,7 +40,7 @@
     margin-bottom: 40px;
   }
   .hbgt-2 {
-    flex-direction: wrap;
+    flex-wrap: wrap;
     height: 100%;
     margin-top: 10px;
   }
