@@ -81,7 +81,14 @@
   }
 
   .filtre {
-	  padding-bottom: 10px;
+    position: absolute;
+    top: 312px;
+    left: 10px;
+    display: flex;
+  }
+
+  .galerie {
+    flex-direction: column;
   }
 
   tbody {
@@ -106,10 +113,6 @@
     justify-content: space-between;
     max-width: fit-content;
     padding-right: 19px;
-  }
-
-  .filtre {
-    display: flex;
   }
 
   /* Barre de recherche */
@@ -142,9 +145,15 @@
   button {
     width: 5%;
     border-radius: 10px;
-  }
-  button p {
     visibility: collapse;
+  }
+
+  button i {
+    position: absolute;
+    top: 0px;
+    padding: 12px 20px 25px 14px;
+    border-radius: 10px;
+
   }
 
   input,
