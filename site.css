@@ -120,6 +120,10 @@ input {
   overflow: hidden;
 }
 
+input::placeholder {
+  color: black;
+}
+
 #loupe {
   display: flex;
   position: absolute;
