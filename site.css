@@ -17,9 +17,6 @@ p {
   margin-right: 10px;
 }
 
-strong {
-  font-family: Raleway-Bold;
-}
 
 /* header */
 
@@ -43,13 +40,24 @@ header {
 /* Navigation */
 
 .navigation {
-  position: relative;
   color: black;
   font-size: 1em;
 }
 
 .navigation a:hover {
+  position: relative;
   color: #0065fc;
+}
+
+.navigation a:hover:after{
+  content: "";
+  width: 100%;
+  padding: 0 10px 0 10px;
+  height: 2px;
+  background-color: #0065fc;
+  position: absolute;
+  top: -44px;
+  right: -10px;
 }
 
 .head-1,
@@ -74,10 +82,7 @@ header {
   margin-right: 20px;
 }
 
-.hebergé,
-.inscrire {
-  position: relative;
-}
+
 
 /* slogant */
 
@@ -170,12 +175,13 @@ tbody {
   justify-content: space-between;
 }
 
-td {
+.filtre-element {
+  padding: 0 19px 0 0;
   display: flex;
   justify-content: space-between;
   border: 2px solid #f2f2f2;
   border-radius: 50px;
-  padding-right: 18px;
+  border-left: none;
   margin-right: 15px;
 }
 
@@ -195,9 +201,11 @@ td a {
 
 .iconnes {
   color: #0065fc;
-  width: 100%;
-  height: auto;
-  padding: 7% 7% 7% 7%;
+  width: 35px;
+  height: 35px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
   border-radius: 100%;
   background-color: #deebff;
 }
