@@ -36,6 +36,17 @@
     padding-top: 0px;
   }
 
+  .navigation a:hover:after{
+    content: none;
+    width: none;
+    padding: none;
+    height: 0;
+    background-color: #0065fc;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
   .inscrire {
     position: absolute;
     bottom: 30px;
