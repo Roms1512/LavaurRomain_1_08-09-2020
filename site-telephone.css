@@ -1,9 +1,9 @@
 @media screen and (max-width: 680px) {
   body {
     height: 100%;
-    width: 376px;
-    position: relative;
+    width: 375px;
     margin: auto;
+    position: relative;
   }
 
   /* Header */
@@ -285,9 +285,12 @@
   .footer {
     width: 375px;
     display: flex;
-    padding-right: 0px;
+    padding-right: 0px; 
     flex-direction: column;
     text-align: left;
     font-size: 1.5em;
+  }
+  ul {
+    padding-left: 0px;
   }
 }
