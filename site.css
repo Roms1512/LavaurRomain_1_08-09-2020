@@ -44,7 +44,6 @@ header {
   color: black;
   font-size: 1em;
   cursor: pointer;
-  padding-right: 0;
 }
 
 .navigation a:hover {
@@ -530,6 +529,6 @@ td a {
 ul {
   list-style-type: none;
   font-size: 0.7em;
-  padding-right: 100px;
+
 }
 
